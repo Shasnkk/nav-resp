@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0139b7f843.js" crossorigin="anonymous"></script>
+    <title>Responsive Nav</title>
+</head>
+<body>
+    <div class="nav_header">
+        <div class="nav container">
+            <!-- logo of the website -->
+            <a href="#" class="nav__logo">Logo</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <!-- list of header item -->
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Contact</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Help</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Services</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Features</a>
+                    </li>
+                </ul>
+                <!-- close button -->
+                <div class="nav_close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav_action">
+                <!-- search button -->
+                <i class="fa-solid fa-magnifying-glass nav_search" id="search-btn"></i>
+                <!-- Login Button -->
+                <i class="fa-solid fa-user nav_login" id="login-btn"></i>
+
+                <!-- toggle button -->
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search -->
+    <div class="search" id="search">
+        <form action="" class="search_form">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="What are you looking for?" class="search_input">
+        </form>
+        <i class="fa-solid fa-xmark search_close" id="search-close"></i>
+    </div>
+
+    <div class="login" id="login">
+        <form action="" class="login_form">
+            <h2 class="login_title">Log In</h2>
+
+            <div class="login_group">
+                <div>
+                    <label for="email" class="login_label">Email</label>
+                    <input type="email" placeholder="00@gmail.com" id="email" class="login_input">
+                </div>
+
+                <div>
+                    <label for="password" class="login_label">Email</label>
+                    <input type="password" placeholder="Enter your password" id="email" class="login_input">
+                </div>
+            </div>
+
+            <div>
+                <p class="login_signup">
+                    You do not have an account?<a href="#">Sign up</a>
+                </p>
+
+                <a href="#" class="login_fotget">You forgot your password</a>
+                <button type="submit" class="login_button">Log In</button>
+            </div>
+        </form>
+        <!-- log in close -->
+        <i class="fa-solid fa-xmark login_close" id="login-close"></i>
+
+    </div>
+
+    <!-- main -->
+    <div class="main">
+        <img src="image/bg.jpg" alt="#" class="main_bg">
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
